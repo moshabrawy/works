@@ -1,0 +1,726 @@
+body {
+    background-color: #F3F8FB;
+}
+
+/* MainColor: #179E8B */
+
+/* Start My FramWork */
+
+p {
+    color: #666
+}
+
+h2, #features h4, #pricing .item h3 { color: #10e89c }
+
+.changHeader h1, .changHeader .typeWelcome,
+nav .navbar-nav .nav-item:hover .nav-link, nav .brand span:hover,
+.slidShow .carousel-caption h5, #about .item button:hover a,
+#works .work_tab li a.active, #works .work_tab li a:hover, #works .work_content .item h4,
+#pricing .item .lunch a, #contact .info ul li span,
+footer form button, footer .item ul li:hover a, footer .goTop { color: #179E8B }
+
+.carousel-indicators li.active, #contact .cont .item button, footer .goTop:hover {
+    background-color: #179E8B
+}
+
+/* End My FramWork */
+
+nav {
+    background-color: #111;
+    padding: 0px !important;
+}
+
+nav .brand img {
+    height: 50px;
+    width: 50px
+}
+
+nav .brand span {
+    color: #FFF;
+    font-family: monospace, "segoe ui light", monospace;
+    transition: all .5s ease-in-out;
+}
+
+nav .navbar-nav .nav-item {
+    padding: 6px 0 !important;
+    text-transform: uppercase;
+    margin-top: 0px !important;
+    border-top: 1.5px solid transparent;
+    border-bottom: 1.5px solid transparent;
+    transition: all .5s ease-in-out;
+    background-color: transparent;
+    font-weight: 600;
+    font-family: "segoe ui light", monospace;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    color: #F2F2F2;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border-bottom: 1.4px solid transparent;
+    padding: 10px 10px;
+}
+
+nav .navbar-nav .nav-item.active,
+nav .navbar-nav .nav-item:hover {
+    border-top: 1.4px solid #179E8B;
+    border-bottom: 1.5px solid #179E8B;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Intro */
+
+.slidShow .carousel-caption p {
+    background-color: rgba(18, 26, 35, 0.6);
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #FFF
+}
+
+.slidShow .carousel-caption h5 {
+    font-weight: bolder;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%
+}
+
+.carousel-indicators li {
+    border-radius: 20px;
+    border: 4px solid rgba(221, 221, 221, 0.3);
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+}
+
+.carousel:hover {
+    cursor: pointer;
+}
+
+.carousel a[href="#Personalcontroler"] {
+    transition: all 1s ease-in-out;
+}
+
+.carousel a[href="#Personalcontroler"]:hover {
+    box-shadow: 100px 55px 50px rgba(23, 158, 139, 0.50) inset,
+                -100px -55px 50px rgba(23, 158, 139, 0.50) inset
+}
+
+/* Change Header */
+.changHeader { display: none; }
+/* End Headr */
+
+/* Start ABOUT */
+
+#about {
+    padding: 50px 0
+}
+
+#about .item {
+    padding: 20px
+}
+
+#about .item h3 {
+    text-transform: uppercase;
+    color: #343434;
+    margin: 10px 0 30px 5px;
+    position: relative;
+    padding: 10px 0
+}
+
+#about .item h3 span {
+    font-weight: 700
+}
+
+#about .item h3::before {
+    content: "";
+    width: 15%;
+    border-radius: 2px;
+    border: 1px solid #179E8B;
+    position: absolute;
+    bottom: 2px;
+    left: 0
+}
+
+#about .item p {
+    line-height: 1.3;
+    margin: 10px 0 10px 5px;
+    padding: 6px 0 20px;
+    font-size: 18px;
+    font-weight: 600
+}
+
+#about .item ul {
+    padding: 5px 10px;
+    list-style: none;
+}
+
+#about .item ul li {
+    padding: 7px 0;
+    margin: 2px 0;
+    font-weight: 700;
+    color: #666
+}
+
+#about .item ul li span.saries {
+    margin: 0 8px;
+    color: #666;
+    font-weight: bold;
+}
+
+#about .item ul li span {
+    font-weight: 400;
+    font-style: italic;
+    color: #888;
+}
+
+#about .item button {
+    margin: 20px 0 0;
+    border: 1.2px solid #333
+}
+
+#about .item button a {
+    color: #666;
+    padding: 10px 10px 10px 0;
+    text-decoration: none;
+    font-size: 17px
+}
+
+#about .item button a i {
+    margin: 0 5px
+}
+
+/* End ABOUT */
+
+/* Start FEATURES */
+
+#features {
+    padding: 50px 0
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 20px 0 40px;
+}
+
+h2 span {
+    display: block;
+    font-size: 16px;
+    position: relative;
+    width: 15%;
+    margin: auto;
+}
+
+h2:hover span {
+    color: #000
+}
+
+h2 span::before {
+    content: "";
+    width: 70px;
+    border: 0.2px solid #ddd;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0
+}
+
+h2 span::after {
+    content: "";
+    width: 70px;
+    border: 0.2px solid #ddd;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0
+}
+
+#features .item {
+    padding: 10px
+}
+
+#features h4 {
+    border: 1.5px solid #179E8B;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#features h5 {
+    color: #222;
+    padding: 6px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#features p { color: #384950 }
+
+/* End FEATURES */
+
+/* Start Works */
+
+#works {
+    padding: 50px 0
+}
+
+#works h2 {
+    margin-bottom: 30px
+}
+
+#works p {
+    margin-bottom: 10px;
+}
+
+#works .navs {
+    padding: 20px
+}
+
+#works .work_tab {
+    width: 50%;
+    margin: 30px auto !important;
+    text-align: center;
+    border-bottom: none
+}
+
+#works .work_tab li {
+    margin: auto;
+    font-weight: bold;
+}
+
+#works .work_tab li a {
+    padding: 10px 35.5px;
+    color: #000
+}
+
+#works .work_tab li a.active,
+#works .work_tab li a:hover {
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px 10px 10px 0;
+}
+
+#works .item img {
+    width: 100%;
+    height: 300px
+}
+
+#works .item .effect {
+    position: relative;
+}
+
+#works .item .caption {
+    box-shadow: 30px 30px 50px 0px inset transparent;
+    transition: all 1s ease-in-out;
+    background-color: transparent;
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 93.7%;
+    top: 3.7%;
+    left: 0;
+}
+
+#works .item:hover .caption,
+#works .item:hover .caption a {
+    background-color: rgba(51, 51, 51, 0.70);
+    box-shadow: -30px -30px 50px 0px inset rgba(0, 0, 0, 0.80),
+                30px 30px 50px 0px inset rgba(0, 0, 0, 0.80);
+    display: block;
+}
+
+#works .item .caption a {
+    transform: translate(-50%, -50%);
+    transition: all 1s ease-in-out;
+    background-color: #111;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: none;
+    color: #fff;
+    top: 50%;
+    left: 50%
+}
+
+#works .work_content {
+    margin: 0 auto;
+    padding: 15px 15px 20px
+}
+
+#works .work_content .item {
+    text-align: center;
+    margin: 20px 0
+}
+
+#works .work_content .item img {
+    border-radius: 10px;
+    margin: 10px 0
+}
+
+#works .work_content .item h4 {
+    font-weight: bold;
+}
+
+/* End Works */
+
+/* Start PRICING */
+
+#pricing {
+    padding: 50px 0
+}
+
+#pricing .item {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    transition: all .7s ease-in-out;
+}
+
+#pricing .item:hover {
+    transform: scale(1.1);
+    background-color: #09c;
+    position: relative;
+    z-index: 99;
+    border-radius: 2px
+}
+
+#pricing .col-lg-3,
+#pricing .col-lg-12 {
+    padding: 0
+}
+
+#pricing .item h3 {
+    border: 20px solid #E2E5FF;
+    width: 130px;
+    height: 130px;
+    padding: 17px;
+    font-size: 40px;
+    margin: 20px auto;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#pricing .item h4 {
+    padding: 20px 0 10px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+#pricing .item p {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+#pricing .item p.price {
+    border: none;
+    font-size: 30px;
+    font-weight: bolder;
+    transition: all .7s ease-in-out
+}
+
+#pricing .item:hover p.price {
+    display: none;
+}
+
+#pricing .item .lunch {
+    background-color: #FFF;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: none;
+
+    display: none;
+    transition: all .7s ease-in-out
+}
+
+#pricing .item .lunch a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#pricing .item:hover .lunch {
+    display: block;
+    margin: auto;
+}
+
+/* End PRICING */
+
+/* Start GALLERY */
+
+#gallery {
+    padding: 50px 0;
+}
+
+#gallery small {
+    padding: 10px 0
+}
+
+#gallery .col-md-4 {
+    padding: 0;
+    margin: 0;
+}
+
+#gallery .item img {
+    box-shadow: 30px 30px 50px 0px inset transparent;
+    transition: all 1s ease-in-out;
+    background-color: transparent;
+}
+
+#gallery .item:hover img {
+    box-shadow: -5px -5px 50px 0px rgba(23, 158, 139, 0.80),
+    5px 5px 50px 0px rgba(23, 158, 139, 0.80)
+}
+
+#gallery .item .caption button.pup {
+    transform: translate(-50%, -50%);
+    transition: all 1s ease-in-out;
+    text-decoration: none !important;
+    position: absolute;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: none;
+    border: none;
+    color: #fff;
+    top: 50%;
+    left: 50%
+}
+
+#gallery .item .effect img {
+    width: 100%;
+    height: 300px
+}
+
+
+/* End GALLERY */
+
+/* Start CONTACT */
+
+#contact {
+    padding: 50px 0;
+}
+
+#contact .info ul {
+    list-style: none;
+}
+
+#contact .info ul li {
+    color: #777
+}
+
+#contact .info ul li span {
+    float: left;
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+#contact .info ul li span i {
+    vertical-align: top;
+}
+
+#contact .info ul li h5 {
+    font-family: "segoe ui light";
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #444
+}
+
+#contact .info ul li p {
+    margin-bottom: 10px;
+    font-size: 15px
+}
+
+#contact .cont {
+    padding: 10px;
+}
+
+#contact .cont .item input {
+    padding: 26px 6px !important;
+    margin: 6px 0 15px 0;
+    border: 0.8px solid #777;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff
+}
+
+#contact .cont .item textarea {
+    color: #fff;
+    min-height: 200px;
+    border-radius: 0;
+    border: 0.8px solid #777;
+}
+
+#contact .cont .item button {
+    padding: 8px 20px;
+    font-size: 17px;
+    margin: 10px 0;
+    border: 0.8px solid #179E8C;
+    color: #fff
+}
+
+#contact .cont .item button:hover {
+    background-color: rgba(23, 158, 139, 0.9);
+}
+
+/* End CONTACT */
+
+/* Start FOOTER */
+
+footer {
+    background-color: #222;
+    padding: 60px 0;
+    color: #FFF
+}
+
+footer .item {
+    margin-top: 20px;
+    padding: 20px
+}
+
+footer .item p,
+footer .item small {
+    padding-bottom: 10px;
+    color: rgba(221, 221, 221, 0.4);
+    margin-top: 30px;
+    display: block
+}
+
+footer .item .copy {
+    color: #F2F2F2
+}
+
+footer form {
+    position: relative;
+    margin: 10px 0
+}
+
+footer form input {
+    padding: 8.99px 40px 8.99px 10px;
+    width: 85%;
+    border: none;
+}
+
+footer form button {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    padding: 10px 20px;
+    width: 15%;
+    border: none;
+    float: right;
+    right: 0;
+    top: 0;
+}
+
+footer form button:hover {
+    background-color: #179E9B;
+    color: #FFF
+}
+
+footer .item ul {
+    background-color: #222;
+    list-style: none;
+    padding: 0
+}
+
+footer .item ul li {
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 25px
+}
+
+footer .item ul li a {
+    color: #DDD
+}
+
+footer .madeBy {
+  transition: all .5s ease-in-out;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 2px;
+  color: #10e89c
+}
+
+footer .madeBy:hover {
+  color: #FFF;
+  background-color: #179E8B
+}
+
+footer .goTop {
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    border-radius: 0 50% 50% 0;
+    transform: rotate(270deg);
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    position: fixed;
+    z-index: 99999;
+    display: none;
+    bottom: 50px;
+    opacity: .7;
+    right: 40px
+}
+
+footer .goTop:hover {
+    color: #FFF;
+    opacity: 1
+}
+
+/* End FOOTER */
+
+/* My FramWork */
+
+.segoe {
+    font-family: "segoe ui light", monospace;
+}
+
+.mono {
+    font-family: monospace, "segoe ui light";
+}
+
+@media (max-width: 576px) {
+    header {
+        height: 300px;
+        position: relative;
+        background-image: url("../images/about.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-clip: content-box;
+
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .changHeader {
+        display: block;
+        position: relative;
+        text-align: center;
+        top: 50%
+    }
+
+    .changHeader h1,
+    .changHeader .typeWelcome {
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .item {
+        width: 100% !important;
+        min-width: 100%;
+        max-width: 100%;
+
+    }
+
+}
